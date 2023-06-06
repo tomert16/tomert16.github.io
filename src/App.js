@@ -24,7 +24,7 @@ function App() {
       children: [
         {
           path: '*',
-          element: <HTTPCode />
+          element: <div>404 NOT FOUND</div>
         },
         {
           path: '/',

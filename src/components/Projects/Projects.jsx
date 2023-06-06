@@ -11,16 +11,12 @@ export const Projects = () => {
         <AnimCursor />
         <section class="py-20 2xl:py-40 bg-gray-800 overflow-hidden" >
           <div class="container px-4 mx-auto">
-          {/* <div class="header mb-20 text-center absolute inset-x-0 -top-44">
-            <h2 class="mt-8 text-4xl lg:text-7xl text-white font-bold font-heading">My Projects</h2>
+       
+          <div class="header mb-20 text-center absolute inset-x-0 -top-28 lg:-top-44">
+            <h2 class="mt-8 text-4xl lg:text-7xl sm:mt-4 text-white font-bold font-heading">My Projects</h2>
             <br></br>
             <span class="text-lg text-blue-400 font-bold">Here Are A Few Projects That I Worked On</span>
-          </div> */}
-          <div class="header mb-20 text-center absolute inset-x-0 -top-28 lg:-top-44">
-  <h2 class="mt-8 text-4xl lg:text-7xl sm:mt-4 text-white font-bold font-heading">My Projects</h2>
-  <br></br>
-  <span class="text-lg text-blue-400 font-bold">Here Are A Few Projects That I Worked On</span>
-</div>
+          </div>
             <div class="flex flex-wrap justify-center gap-16 ">
               <div class="w-full md:w-1/2 lg:w-1/4 p-5">
                 <ProjectCard 
