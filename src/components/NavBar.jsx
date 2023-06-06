@@ -59,7 +59,7 @@ export const NavBar = () => {
           </div>
           <div class="hidden lg:block">
             <a class="inline-block px-12 py-4 text-white font-bold border border-gray-200 hover:border-white rounded-full" href="#">
-              <a href='https://github.com/tomert16/portfolio-site' target="_blank" rel="noreferrer" class="repo-btn">
+              <a href='https://github.com/tomert16/tomert16.github.io' target="_blank" rel="noreferrer" class="repo-btn">
                 <GoGitBranch size='2em'/>
               </a>
             </a>
