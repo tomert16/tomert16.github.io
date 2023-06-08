@@ -17,7 +17,7 @@ export const Projects = () => {
             <br></br>
             <span class="text-lg text-blue-400 font-bold">Here Are A Few Projects That I Worked On</span>
           </div>
-            <div class="flex flex-wrap justify-center gap-16 ">
+            <div class="flex flex-wrap justify-center gap-16 mr-20">
               <div class="w-full md:w-1/2 lg:w-1/4 p-5">
                 <ProjectCard 
                     image={baro}
