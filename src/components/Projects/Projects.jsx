@@ -9,7 +9,7 @@ export const Projects = () => {
   return (
     <>
         <AnimCursor />
-        <section class="py-20 2xl:py-40 bg-gray-800 overflow-hidden" >
+        <section class="py-40 2xl:py-60 bg-gray-800 overflow-hidden" >
           <div class="container px-4 mx-auto">
        
           <div class="header mb-20 text-center absolute inset-x-0 -top-28 lg:-top-44">
@@ -17,7 +17,7 @@ export const Projects = () => {
             <br></br>
             <span class="text-lg text-blue-400 font-bold">Here Are A Few Projects That I Worked On</span>
           </div>
-            <div class="flex flex-wrap justify-center gap-16 mr-20">
+            <div class="flex flex-wrap justify-between mr-32">
               <div class="w-full md:w-1/2 lg:w-1/4 p-5">
                 <ProjectCard 
                     image={baro}
