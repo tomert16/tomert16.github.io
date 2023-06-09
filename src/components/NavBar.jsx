@@ -12,7 +12,6 @@ export const NavBar = () => {
   // const [onHover, setOnHover] = useState(true);
   const handleDisplayNavBar = () => {
     setDisplayNavBar(!displayNavBar);
-    console.log('setDisplayNavBar')
   }
 
   return (
@@ -75,8 +74,8 @@ export const NavBar = () => {
             </div>
             <div>
               <ul>
-                <li class="mb-1 px-10"><button class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" onClick={() => navigate("/about_me")}>About</button></li>
-                <li class="mb-1 px-10"><button class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" onClick={() => navigate("/projects")}>Projects</button></li>
+                <li class="mb-1 px-10"><button class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" onClick={() => {navigate("/about_me"); setDisplayNavBar(false)}}>About</button></li>
+                <li class="mb-1 px-10"><button class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" onClick={() => {navigate("/projects"); setDisplayNavBar(false)}}>Projects</button></li>
                 <li class="mb-1 px-10"><a class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" href={pdf} target="_blank" rel="noreferrer">Resume</a></li>
               </ul>
             </div> 
