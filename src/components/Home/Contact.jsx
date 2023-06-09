@@ -1,5 +1,4 @@
-import linkedin from '../../images/linkedin.png';
-import github from '../../images/github.png';
+
 
 export const Contact = () => {  
   return (
