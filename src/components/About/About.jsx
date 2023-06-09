@@ -13,7 +13,7 @@ export const About = () => {
             </div>
             <div class="w-full lg:w-4/6 px-4">
               <div class="relative text-center mb-14">
-                <img class="absolute top-0 right-0 mt-28" src="zospace-assets/images/quote-gray.svg" alt=""/>
+                {/* <img class="absolute top-0 right-0 mt-28" src="zospace-assets/images/quote-gray.svg" alt=""/> */}
                 <div class="relative">
 
                   <h2 class="mt-24 mb-16 text-5xl font-bold font-heading text-blue-400">A little about me</h2>
