@@ -13,9 +13,7 @@ export const About = () => {
             </div>
             <div class="w-full lg:w-4/6 px-4">
               <div class="relative text-center mb-14">
-                {/* <img class="absolute top-0 right-0 mt-28" src="zospace-assets/images/quote-gray.svg" alt=""/> */}
                 <div class="relative">
-
                   <h2 class="mt-24 mb-16 text-5xl font-bold font-heading text-blue-400">A little about me</h2>
                 </div>
                 <div class=" mx-auto">
@@ -29,7 +27,6 @@ export const About = () => {
                   <img class="w-40 h-50 rounded-full object-cover" src="https://static.shuffle.dev/uploads/files/79/79b6fa37082796c1ac4ce6741c20f4e64293432d/IMG-3037.JPG" alt=""/>
                 </div>
                 <div class="px-4">
-
                   <div>
                     <h3 class="mb-1 text-2xl text-white font-bold">Tomer Tal</h3>
                     <p class="text-white">Email me here:</p>
