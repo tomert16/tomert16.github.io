@@ -22,12 +22,18 @@ export const TechStack = () => {
             <div class="inline-block ml-auto py-12 px-4 sm:px-8 mb-3 bg-gray-600 rounded-lg">
               <img class="mx-auto h-16" src="https://static.shuffle.dev/uploads/files/79/79b6fa37082796c1ac4ce6741c20f4e64293432d/pngwing-com-3.png" alt=""/>
             </div>
+            <div class="py-8 px-6 sm:px-14 mb-3 bg-gray-600 rounded-lg">
+              <img class="h-16 mx-auto" src="https://static.shuffle.dev/uploads/files/79/79b6fa37082796c1ac4ce6741c20f4e64293432d/pngwing-com-9.png" alt=""/>
+            </div>
             <div class="py-16 px-2 sm:px-12 bg-gray-600 rounded-lg">
               <img class="mx-auto h-20 lg:h-28" src="https://static.shuffle.dev/uploads/files/79/79b6fa37082796c1ac4ce6741c20f4e64293432d/pngwing-com-1.png" alt=""/>
             </div>
           </div>
           <div class="py-8 px-2 sm:px-6 mr-6 bg-gray-600 rounded-lg">
             <img class="h-16 mx-auto" src="https://static.shuffle.dev/uploads/files/79/79b6fa37082796c1ac4ce6741c20f4e64293432d/pngwing-com-6.png" alt=""/>
+          </div>
+          <div class="py-8 px-2 sm:px-6 mr-6 bg-gray-600 rounded-lg">
+            <img class="h-24 mx-auto" src="https://static.shuffle.dev/uploads/files/79/79b6fa37082796c1ac4ce6741c20f4e64293432d/pngwing-com-8.png" alt=""/>
           </div>
           <div class="-mb-32">
             <div class="py-8 px-2 sm:px-14 mb-3 bg-gray-600 rounded-lg">
