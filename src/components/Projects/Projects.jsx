@@ -3,6 +3,7 @@ import { ProjectCard } from './ProjectCard'
 import baro from '../../images/baro.png';
 import pnp from '../../images/pnp.png';
 import space from '../../images/space.png';
+import netflix from '../../images/netflix.png';
 import { AnimCursor } from '../AnimCursor';
 
 export const Projects = () => {
@@ -17,6 +18,16 @@ export const Projects = () => {
             <span class="text-lg text-blue-400 font-bold">Here Are A Few Projects That I Worked On</span>
           </div>
             <div class="flex flex-wrap justify-center gap-32 mr:20 lg:mr-32">
+              <div class="w-full md:w-1/2 lg:w-1/4 p-5">
+                <ProjectCard 
+                    image={netflix}
+                    title="Netflix Clone"
+                    description="A Netflix clone built using React.js for the frontend, along with CSS using styled components and a touch of Tailwind CSS. The project incorporates Firebase Authentication for seamless login and signup functionality. On the backend, I utilized Node.js and Express, with SQLite3 serving as the database, and integrated the TMDB API for fetching movies and shows."
+                    frontend="https://github.com/tomert16/netflix-clone-frontend"
+                    backend="https://github.com/tomert16/netflix-clone-backend"
+                    fullstack={true}
+                />
+              </div>
               <div class="w-full md:w-1/2 lg:w-1/4 p-5">
                 <ProjectCard 
                     image={pnp}
