@@ -23,9 +23,8 @@ export const Projects = () => {
                     image={netflix}
                     title="Netflix Clone"
                     description="A Netflix clone built using React.js for the frontend, along with CSS using styled components and a touch of Tailwind CSS. The project incorporates Firebase Authentication for seamless login and signup functionality. On the backend, I utilized Node.js and Express, with SQLite3 serving as the database, and integrated the TMDB API for fetching movies and shows."
-                    frontend="https://github.com/tomert16/netflix-clone-frontend"
-                    backend="https://github.com/tomert16/netflix-clone-backend"
-                    fullstack={true}
+                    frontend="https://github.com/tomert16/netflix-clone-app"
+                    fullstack={false}
                 />
               </div>
               <div class="w-full md:w-1/2 lg:w-1/4 p-5">
