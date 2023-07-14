@@ -24,7 +24,7 @@ export const Projects = () => {
                     title="Netflix Clone"
                     description="A Netflix clone built using React.js for the frontend, along with CSS using styled components and a touch of Tailwind CSS. The project incorporates Firebase Authentication for seamless login and signup functionality. On the backend, I utilized Node.js and Express, with SQLite3 serving as the database, and integrated the TMDB API for fetching movies and shows."
                     frontend="https://github.com/tomert16/netflix-clone-app"
-                    fullstack={false}
+                    completed={true}
                 />
               </div>
               <div class="w-full md:w-1/2 lg:w-1/4 p-5">
@@ -34,17 +34,7 @@ export const Projects = () => {
                     description="Discover the thrill of spontaneous sports activities with this dynamic web application, built with React.js and Ruby on Rails. Seamlessly find and join pick-up games in your area, while also having the freedom to create and organize your own games, all within a vibrant community of sports enthusiasts."
                     frontend="https://github.com/tomert16/pick-n-play-frontend"
                     backend="https://github.com/tomert16/pick-n-play-backend"
-                    fullstack={true}
-                />
-              </div>
-              <div class="w-full md:w-1/2 lg:w-1/4 p-5">
-                <ProjectCard 
-                    image={baro}
-                    title="Baro"
-                    description="Showcases a sophisticated web application, built with React.js and Ruby on Rails, where users can discover, review, and rate local bars, while also creating and hosting their own unique bar crawls. It provides a platform for socializing and sharing bar experiences with like-minded individuals, fostering a vibrant community of bar enthusiasts. Built collaborativly with Avinash Ramsumair, Daniel Yim, and Olivia Radick"
-                    frontend="https://github.com/tomert16/Phase-4-Baro-react"
-                    backend="https://github.com/tomert16/Phase-4-Baro-app-backend"
-                    fullstack={true}
+                    completed={false}
                 />
               </div>
               <div class="w-full md:w-1/2 lg:w-1/4 p-5">
@@ -53,7 +43,7 @@ export const Projects = () => {
                     title="Space Travel Simulator"
                     description="Space travel calculator, built with Javascript, HTML, CSS. Calculates the distance and travel time between planets, moons, and even offers different modes of transportation. It provides users with accurate estimates based on scientific data, allowing them to explore the distances and travel times within our solar system. Built collabrativly with James Prawdzik, Avinash Ramsumair, and Jason Mejia"
                     frontend="https://github.com/tomert16/Phase-1-Final-Group-Project"
-                    fullstack={false}
+                    completed={true}
                 />
               </div>
             </div>
